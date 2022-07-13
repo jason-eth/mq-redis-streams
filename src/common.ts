@@ -10,7 +10,7 @@ export async function waitUntilInitialized(thisObj: LooseObject, initializeVarNa
   let counter = 0;
   while (!thisObj[initializeVarName]) {
     counter++;
-    await delay(50);
+    await delay(1000);
 
     if (counter > 5) {
       throw new Error('Initialization is taking too long. Aborting.');
