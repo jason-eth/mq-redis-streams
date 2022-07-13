@@ -84,3 +84,4 @@ typings/
 lib/
 
 examples/**/package-lock.json
+package.bak
