@@ -85,3 +85,4 @@ lib/
 
 examples/**/package-lock.json
 package.bak
+package-new.json
