@@ -44,13 +44,13 @@ const loggingOptions: LoggingOptions = {
 };
 
 export const defaultOptions = {
-  NAMESPACE: '__orkid',
+  NAMESPACE: '__stb',
   INTERNALS: '__internals',
-  RESULTLIST: '__orkid:__internals:results',
-  FAILEDLIST: '__orkid:__internals:failed',
-  DEADLIST: '__orkid:__internals:dead',
-  STAT: '__orkid:__internals:stat',
-  QUENAMES: '__orkid:__internals:qnames',
+  RESULTLIST: '__stb:__internals:results',
+  FAILEDLIST: '__stb:__internals:failed',
+  DEADLIST: '__stb:__internals:dead',
+  STAT: '__stb:__internals:stat',
+  QUENAMES: '__stb:__internals:qnames',
   redisOptions,
   queueOptions,
   consumerOptions,
